@@ -1,0 +1,78 @@
+.sectionThree {
+    height: 516px;
+    text-align: center;
+    background-image: url('../../../assets/fonThree.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 160px 0;
+    gap: 60px;
+}
+
+.sectionThree h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.sectionThree p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.btns_three {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.playstores {
+    width: 142px;
+    height: 64px;
+    gap: 10px;
+    border-radius: 10px;
+    padding-top: 18px;
+    padding-right: 31px;
+    padding-bottom: 18px;
+    padding-left: 31px;
+    background: #FA4A0C;
+    color: #FFFFFF;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+
+}
+
+.apps {
+    border: 1px solid #FFFFFF;
+    width: 173px;
+    height: 60px;
+    gap: 10px;
+    border-radius: 10px;
+    padding-top: 16px;
+    padding-right: 45px;
+    padding-bottom: 16px;
+    padding-left: 45px;
+    border-width: 1px;
+    background: none;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+
+}

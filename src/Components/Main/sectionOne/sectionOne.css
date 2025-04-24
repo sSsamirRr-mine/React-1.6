@@ -1,0 +1,82 @@
+.sectionOne {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    height: 1220px;
+    border-bottom: groove 3px #E4E4E4;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+.main {
+    background-image: url(../../../assets/FonOne.svg);
+    height: 619px;
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding: 11% 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    width: 937px;
+}
+
+main p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.btn {
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.btn button {
+    width: 136px;
+    height: 38px;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+}
+
+.Play {
+    border: none;
+    background: #FA4A0C;
+    box-shadow: 0px 10px 30px 0px #B7322733;
+}
+
+.App {
+    background: none;
+    border: 1px solid #FFFFFF
+}
+
+.Phones {
+    width: 548px;
+    height: 640px;
+    position: absolute;
+    left: 30%;
+    bottom: 200px;
+}

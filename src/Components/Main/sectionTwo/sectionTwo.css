@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+.boss {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+
+}
+
+.sectionTwo {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    text-align: start;
+    gap: 120px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: start;
+    width: 568px;
+}
+
+/* .info h4,
+.info h2,
+.info p {} */
+
+.info h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #FA4A0C;
+
+}
+
+.info h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+
+}
+
+.info p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
